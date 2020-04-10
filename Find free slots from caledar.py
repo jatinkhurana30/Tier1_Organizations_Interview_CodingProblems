@@ -51,7 +51,7 @@ for time_slot in calendar_2:
 Here from both people's calendar, we find the already booked slots where meeting can't happen. i.e if person 1 is 
 busy from 12:00 - 13:00 and person 2 is busy from 12:30 to 13:30, then total time booked for that slot is 12:00 
 -13:30. SO if there are intersecting time slots in the given calendars, they will be merged, if no then they will be
-taken as it is ,Provided we are also maintain the sorted time
+taken as it is ,Provided we are also maintaining the sorted time
 """
 booked_time_slots = []
 start_time = None
