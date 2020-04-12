@@ -34,7 +34,7 @@ for i in range(0, min_length):
             flag = 1
 
     # If we were not able to find any dissimilarity of a character in all the strings of array,
-    # we simply add it to out output 
+    # we simply add it to out output
     if flag != 1:
         longest_common_substring += smallest_string[i]
 

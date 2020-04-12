@@ -46,6 +46,7 @@ def calculate_spaces(input_str, sub_strings, tree_patterns):
             candidate_substrings.append(sub_str)
 
     for candidate in candidate_substrings:
+
         available_substrings = sub_strings[:]
         available_substrings.remove(candidate)
         new_node = Tree(candidate)
